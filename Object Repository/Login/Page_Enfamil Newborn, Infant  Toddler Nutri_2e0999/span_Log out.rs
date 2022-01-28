@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign In</name>
+   <name>span_Log out</name>
    <tag></tag>
-   <elementGuidId>5c2b5da0-7526-4511-9f5c-29b3065a6f98</elementGuidId>
+   <elementGuidId>506c64f6-c953-44bd-b131-54a881a668cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//nav[@id='block-icw5loggedoutmenu']/ul/li[3]/ul/li/a)[4]</value>
+         <key>CSS</key>
+         <value>li.account-nav-main__link-container.account-nav-main__link-container--lvl2.account-nav-main__link-container--logout.log-out > a.account-nav-main__link.account-nav-main__link--lvl2.link > span.account-nav-main__link-title</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>li.expanded.dropdown.last.sign.in.open > ul.dropdown-menu > li.first.sign.in > a[title=&quot;Sign In&quot;]</value>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/header/div[2]/div/div[2]/ul/li[3]/ul/li[7]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,97 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/user/login</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Sign In</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-drupal-link-system-path</name>
+      <name>class</name>
       <type>Main</type>
-      <value>user/login</value>
+      <value>account-nav-main__link-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign In</value>
+      <value>Log out</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;navbar-collapse&quot;)/div[@class=&quot;region region-navigation-collapsible&quot;]/nav[@id=&quot;block-icw5loggedoutmenu&quot;]/ul[@class=&quot;menu menu--menu-icw5-logged-out-menu nav&quot;]/li[@class=&quot;expanded dropdown last sign in open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[@class=&quot;first sign in&quot;]/a[1]</value>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;sk-app CoreHomePage hide-page-title&quot;]/div[@class=&quot;page-container page-container--main&quot;]/header[@class=&quot;main-header main-header--fixed-mobileOnly&quot;]/div[@class=&quot;main-header__top&quot;]/div[@class=&quot;wrapper wrapper--main-header__top-items&quot;]/div[@class=&quot;account-nav-main&quot;]/ul[@class=&quot;account-nav-main__nav-elements account-nav-main__nav-elements--lvl1 navigation-list&quot;]/li[@class=&quot;account-nav-main__link-container account-nav-main__link-container--lvl1 account-nav-main__link-container--has-children&quot;]/ul[@class=&quot;account-nav-main__nav-elements account-nav-main__nav-elements--lvl2 navigation-list&quot;]/li[@class=&quot;account-nav-main__link-container account-nav-main__link-container--lvl2 account-nav-main__link-container--logout log-out&quot;]/a[@class=&quot;account-nav-main__link account-nav-main__link--lvl2 link&quot;]/span[@class=&quot;account-nav-main__link-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//nav[@id='block-icw5loggedoutmenu']/ul/li[3]/ul/li/a)[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'Sign In')])[2]</value>
+      <value>//div[@id='__next']/div/div/header/div[2]/div/div[2]/ul/li[3]/ul/li[7]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping Address'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHOP'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick Reorder'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register as a Student'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Español'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register as a Teacher'])[2]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Products'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/user/login')])[4]</value>
+      <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/nav[2]/ul/li[3]/ul/li/a</value>
+      <value>//li[7]/a/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log out' or . = 'Log out')]</value>
    </webElementXpaths>
 </WebElementEntity>
